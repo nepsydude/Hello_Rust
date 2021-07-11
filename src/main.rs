@@ -16,7 +16,14 @@ fn main() {
 
     let z:f32 = 3.1232939484934839;
     println!("z is {}",z);
-    
+
+    // arithmetic operations
+
+    let a = 10;
+    let b = 3;
+    let c = a+b;
+    println!("c is {}",c);
+
 
 }
 
