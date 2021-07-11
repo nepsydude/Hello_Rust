@@ -22,7 +22,9 @@ fn main() {
     let a = 10;
     let b = 3;
     let c = a+b;
+    let d = a%b;
     println!("c is {}",c);
+    println!("d is {}",d);
 
 
 }
