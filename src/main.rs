@@ -1,3 +1,4 @@
+
 fn main() {
     let mut x = 10; // mutable variable
     
@@ -50,9 +51,34 @@ fn main() {
     value = value  >> 2; // bitwise right shift by 2 bits operator
     println!("value is {:08b}",value);
 
-    // test empty commit 
+    // test empty commit
 
-}
+    // boolean data types and operations
+
+    let ab = true;
+    let ac = false;
+    println!("ab is {} and ac is {}", ab, ac);
+    println!("NOT ab is {}", !ab);
+    println!("ab AND ac is {}", ab & ac);
+    println!("ab OR ac is {}", ab | ac);
+    println!("ab XOR ac is {}", ab ^ ac);
+
+    // comparision operators 
+    
+    let ax = 1;
+    let bx = 2;
+    println!("ax is {} and b is {}", ax, bx);
+    println!("ax EQUAL TO b is {}", ax == bx);
+    println!("ax NOT EQUAL TO b is {}", ax != bx);
+    println!("ax GREATER THAN b is {}", ax > bx);
+    println!("ax GREATER THAN OR EQUAL TO b is {}", ax >= bx);
+    println!("ax LESS THAN bx is {}", ax < bx);
+    println!("ax LESS THAN OR EQUAL TO bx is {}", ax <= bx);
+}   
+
+
+
+
 
 
 
