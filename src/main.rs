@@ -83,7 +83,14 @@ fn main() {
 
     println!("{}\n{}\n{}", letter,number, finger);
 
-    
+    let p = 13;
+    let q = 2.3;
+    let r = 120.0;
+
+    let avergae = (p as f64 +q+r as f64)/3.0;
+    assert_eq!(avergae,45.1);
+    println!("Test Passed");
+
 
 
 
