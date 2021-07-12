@@ -50,6 +50,8 @@ fn main() {
     value = value  >> 2; // bitwise right shift by 2 bits operator
     println!("value is {:08b}",value);
 
+    // test empty commit 
+
 }
 
 
