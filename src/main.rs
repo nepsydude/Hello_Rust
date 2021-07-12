@@ -64,7 +64,7 @@ fn main() {
     println!("ab XOR ac is {}", ab ^ ac);
 
     // comparision operators 
-    
+
     let ax = 1;
     let bx = 2;
     println!("ax is {} and b is {}", ax, bx);
@@ -74,6 +74,19 @@ fn main() {
     println!("ax GREATER THAN OR EQUAL TO b is {}", ax >= bx);
     println!("ax LESS THAN bx is {}", ax < bx);
     println!("ax LESS THAN OR EQUAL TO bx is {}", ax <= bx);
+
+    // character data types
+
+    let letter = 'a';
+    let number= '1';
+    let finger = '\u{261D}';
+
+    println!("{}\n{}\n{}", letter,number, finger);
+
+    
+
+
+
 }   
 
 
