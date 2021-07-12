@@ -91,8 +91,32 @@ fn main() {
     assert_eq!(avergae,45.1);
     println!("Test Passed");
 
+    // Array
+
+    let mut letters = ['a', 'b', 'c', 'd'];
+    letters[0] = 'x';
+    let first_letter = letters[0];
+    println!("first letter is {}", first_letter);
+
+    // multidimensional arrays
+
+    let parking = [[1,2,3],[4,5,6]];
+    let nummer = parking[0][1];
+    println!("number is {}",number);
+
+    // tuples
+
+    let mut stuff: (u8, f32, char) = (10, 3.14, 'x');
+    stuff.0 += 3;
+    let first_item = stuff.0;
+    println!("first_item is {}", first_item);
+
+    let (a, b, c) = stuff;
+    println!("b is {}", b);
 
 
+
+    
 
 }   
 
