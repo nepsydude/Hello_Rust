@@ -146,10 +146,6 @@ fn main() {
     }
     println!("outer_planet is {}", outer_planet);
     
-    // referencing borrowing
-    let rocket_fuel = String::from("RP-1");
-    let rocket_fuel = process_fuel(rocket_fuel);
-    println!("rocket_fuel is {}", rocket_fuel);
 
 
 }
