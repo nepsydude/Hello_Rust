@@ -149,6 +149,7 @@ fn square(x: i32) -> (i32, i32) {
     println!("squaring {}", x);
     return (x, x * x);
     println!("End of function");
+    
 }
 
 
